@@ -2,9 +2,7 @@ using System;
 
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -12,13 +10,9 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public class ModelDuck : Duck
+    public class ModelDuck : Duck {
 
-    {
-
-        public ModelDuck()
-
-        {
+        public ModelDuck() {
 
             flyBehavior = new FlyNoWay();
 
@@ -28,9 +22,7 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        public override object Display()
-
-        {
+        public override object Display() {
 
             return "I'm a model duck";
 

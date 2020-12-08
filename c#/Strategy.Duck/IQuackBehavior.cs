@@ -2,9 +2,7 @@ using System;
 
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -12,9 +10,7 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public interface IQuackBehavior
-
-    {
+    public interface IQuackBehavior {
 
         string Quacking();
 

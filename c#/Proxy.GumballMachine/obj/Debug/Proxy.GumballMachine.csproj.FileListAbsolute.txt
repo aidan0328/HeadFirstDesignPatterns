@@ -1,0 +1,10 @@
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\nunit.engine.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\nunit.engine.api.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\nunit.engine.core.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\HeadFirstDesignPatterns.Proxy.GumballMachine.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\bin\Debug\HeadFirstDesignPatterns.Proxy.GumballMachine.pdb
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\obj\Debug\Proxy.GumballMachine.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\obj\Debug\HeadFirstDesignPatterns.Proxy.GumballMachine.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.GumballMachine\obj\Debug\HeadFirstDesignPatterns.Proxy.GumballMachine.pdb

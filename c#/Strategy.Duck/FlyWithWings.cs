@@ -2,9 +2,7 @@ using System;
 
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -12,13 +10,9 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public class FlyWithWings : IFlyBehavior
+    public class FlyWithWings : IFlyBehavior {
 
-    {
-
-        public FlyWithWings()
-
-        {}
+        public FlyWithWings() { }
 
 
 
@@ -26,9 +20,7 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        public object Fly()
-
-        {
+        public object Fly() {
 
             return "I'm flying!!";
 

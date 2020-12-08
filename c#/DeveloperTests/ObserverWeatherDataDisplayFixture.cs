@@ -6,9 +6,7 @@ using NUnit.Framework;
 
 
 
-namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
-
-{
+namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData {
 
     /// <summary>
 
@@ -18,9 +16,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
     [TestFixture]
 
-    public class ObserverWeatherDataDisplayFixture
-
-    {
+    public class ObserverWeatherDataDisplayFixture {
 
         #region Members
 
@@ -40,7 +36,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
         #region TestFixtureSetUp Init()
 
-        [TestFixtureSetUp]
+        /*[TestFixtureSetUp]
 
         public void Init()
 
@@ -58,7 +54,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
             heatIndexDisplay = new WeatherDataImp.HeatIndexDisplay(weatherData);
 
-        }
+        }*/
 
         #endregion// TestFixtureSetUp Init()
 
@@ -66,7 +62,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
         #region TestFixtureTearDown Dispose()
 
-        [TestFixtureTearDown]
+        /*[TestFixtureTearDown]
 
         public void Dispose()
 
@@ -82,7 +78,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
             heatIndexDisplay = null;
 
-        }
+        }*/
 
         #endregion//TestFixtureTearDown Dispose()
 
@@ -92,11 +88,9 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
         [Test]
 
-        public void TestCurrentConditionsDisplay()
+        public void TestCurrentConditionsDisplay() {
 
-        {
-
-            weatherData.SetMeasurements(80,65,30.4f);
+            weatherData.SetMeasurements(80, 65, 30.4f);
 
 
 
@@ -114,11 +108,9 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
         [Test]
 
-        public void TestForecastDisplay()
+        public void TestForecastDisplay() {
 
-        {
-
-            weatherData.SetMeasurements(81,63,31.2f);
+            weatherData.SetMeasurements(81, 63, 31.2f);
 
             //lastPressure = 29.92f
 
@@ -126,9 +118,9 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
                 forcastDisplay.Display());
 
-            
 
-            weatherData.SetMeasurements(81,63,29.92f);
+
+            weatherData.SetMeasurements(81, 63, 29.92f);
 
             Assert.AreEqual("Forecast: Watch out for cooler, rainy weather",
 
@@ -136,7 +128,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
 
 
-            weatherData.SetMeasurements(81,63,29.92f);
+            weatherData.SetMeasurements(81, 63, 29.92f);
 
             Assert.AreEqual("Forecast: More of the same",
 
@@ -152,19 +144,15 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
         [Test]
 
-        public void TestStatisticsDisplay()
+        public void TestStatisticsDisplay() {
 
-        {
+            weatherData.SetMeasurements(80, 63, 31.2f);
 
-            weatherData.SetMeasurements(80,63,31.2f);            
+            weatherData.SetMeasurements(81, 63, 29.92f);
 
-            weatherData.SetMeasurements(81,63,29.92f);
+            weatherData.SetMeasurements(84, 63, 29.92f);
 
-            weatherData.SetMeasurements(84,63,29.92f);
-
-            if(statisticsDisplay.NumberOfReadings == 3)
-
-            {
+            if (statisticsDisplay.NumberOfReadings == 3) {
 
                 Assert.AreEqual("Avg/Max/Min temperature = 81.67F/84F/80F",
 
@@ -172,9 +160,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
             }
 
-            if(statisticsDisplay.NumberOfReadings == 8)
-
-            {
+            if (statisticsDisplay.NumberOfReadings == 8) {
 
                 Assert.AreEqual("Avg/Max/Min temperature = 81.00F/84F/80F",
 
@@ -192,13 +178,11 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Observer.WeatherData
 
         [Test]
 
-        public void TestHeatIndexDisplay()
+        public void TestHeatIndexDisplay() {
 
-        {
+            weatherData.SetMeasurements(80, 65, 31.2f);
 
-            weatherData.SetMeasurements(80,65,31.2f);
-
-            Assert.AreEqual("Heat index is 82.95535",heatIndexDisplay.Display());
+            Assert.AreEqual("Heat index is 82.95535", heatIndexDisplay.Display());
 
         }
 

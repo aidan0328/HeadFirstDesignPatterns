@@ -2,9 +2,7 @@ using System;
 
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -12,17 +10,13 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public class FlyRocketPowered : IFlyBehavior
-
-    {
+    public class FlyRocketPowered : IFlyBehavior {
 
         #region IFlyBehavior Members
 
 
 
-        public object Fly()
-
-        {
+        public object Fly() {
 
             return "I'm flying with a rocket!";
 

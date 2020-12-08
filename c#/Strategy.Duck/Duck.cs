@@ -1,8 +1,6 @@
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -10,31 +8,23 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public abstract class Duck
-
-    {
+    public abstract class Duck {
 
         protected IFlyBehavior flyBehavior;
 
         protected IQuackBehavior quackBehavior;
 
-        
 
-        public IQuackBehavior QuackBehavior
 
-        {
+        public IQuackBehavior QuackBehavior {
 
-            get
-
-            {
+            get {
 
                 return quackBehavior;
 
             }
 
-            set
-
-            {
+            set {
 
                 quackBehavior = value;
 
@@ -44,21 +34,15 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        public IFlyBehavior FlyBehavoir
+        public IFlyBehavior FlyBehavoir {
 
-        {
-
-            get
-
-            {
+            get {
 
                 return flyBehavior;
 
             }
 
-            set
-
-            {
+            set {
 
                 flyBehavior = value;
 
@@ -68,15 +52,13 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        
+
 
         public abstract object Display();
 
 
 
-        public object PerformFly()
-
-        {
+        public object PerformFly() {
 
             return FlyBehavoir.Fly();
 
@@ -84,9 +66,7 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        public object PerformQuack()
-
-        {
+        public object PerformQuack() {
 
             return QuackBehavior.Quacking();
 
@@ -94,9 +74,7 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        public string Swim()
-
-        {
+        public string Swim() {
 
             return "All ducks float, even decoys!";
 

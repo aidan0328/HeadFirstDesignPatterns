@@ -1,8 +1,6 @@
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -10,13 +8,9 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public class RubberDuck : Duck
+    public class RubberDuck : Duck {
 
-    {
-
-        public RubberDuck()
-
-        {
+        public RubberDuck() {
 
             quackBehavior = new Squeak();
 
@@ -24,11 +18,9 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
         }
 
-        
 
-        public override object Display()
 
-        {
+        public override object Display() {
 
             return "I'm a rubber duck";
 

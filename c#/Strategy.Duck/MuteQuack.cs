@@ -2,9 +2,7 @@ using System;
 
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -12,13 +10,9 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public class MuteQuack : IQuackBehavior
+    public class MuteQuack : IQuackBehavior {
 
-    {
-
-        public string Quacking()
-
-        {
+        public string Quacking() {
 
             return "<<silence>>";
 

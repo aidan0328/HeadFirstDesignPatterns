@@ -1,0 +1,10 @@
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\nunit.engine.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\nunit.engine.api.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\nunit.engine.core.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\HeadFirstDesignPatterns.Proxy.Dynamic.Net.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\bin\Debug\HeadFirstDesignPatterns.Proxy.Dynamic.Net.pdb
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\obj\Debug\Proxy.Dynamic.Net.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\obj\Debug\HeadFirstDesignPatterns.Proxy.Dynamic.Net.dll
+C:\Users\user\Documents\GitHub\HeadFirstDesignPatterns\c#\Proxy.Dynamic.Net\obj\Debug\HeadFirstDesignPatterns.Proxy.Dynamic.Net.pdb

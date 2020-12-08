@@ -2,9 +2,7 @@ using System;
 
 
 
-namespace HeadFirstDesignPatterns.Strategy.Duck
-
-{
+namespace HeadFirstDesignPatterns.Strategy.Duck {
 
     /// <summary>
 
@@ -12,13 +10,9 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
     /// </summary>
 
-    public class MallardDuck : Duck
+    public class MallardDuck : Duck {
 
-    {
-
-        public MallardDuck()
-
-        {
+        public MallardDuck() {
 
             quackBehavior = new Quack();
 
@@ -28,13 +22,11 @@ namespace HeadFirstDesignPatterns.Strategy.Duck
 
 
 
-        public override object Display()
-
-        {
+        public override object Display() {
 
             return "I'm a real Mallard duck";
 
-            
+
 
         }
 
